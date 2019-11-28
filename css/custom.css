@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+@font-face{
+    font-family: nodu;
+    src:url(../nodu/nodu.eot);
+    src:url(../nodu/nodu.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+/*
+=============================
+Global CSS
+=============================
+
+*/
+
+.container{
+    width: 1200px;
+    margin: auto;
+
+}
+
+body{
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+li{
+    list-style: none;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+=============================
+Header Part
+=============================
+*/
+header{
+    background: #00000075 url(../images/main.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding-top: 20px;
+    position: relative;
+}
+
+/* logo part */
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600px;
+}
+.logo h1 span{
+    font-weight: 100;
+    display: block;
+    font-size: 17px;
+}
+
+/* nav part */
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1.5px solid transparent;
+    border-radius: 30px;
+    transition: all 0.1s cubic-bezier(1, 0.05, 0, -0.25);
+}
+
+nav ul li a:hover{
+    border: 1.5px solid;
+}
+
+nav ul li:last-child a{
+    border: 1.5px solid;
+}
+
+/* Banner content part */
+.banner-content{
+    color: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+}
+.banner-content h6{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-content span{
+    display: block;
+    height: 3px;
+    width: 100px;
+    background: #FB2056;
+    margin: 10px auto 5px;
+}
+.banner-content h1{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.more{
+    background: #FB2056;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+/*
+=============================
+Testimonial Part
+=============================
+*/
+
+
+.testimonial-section{
+    background: #FBF6F9;
+    padding: 50px 0;
+    text-align: center;
+    color: #8C949c;
+}
+.testimonial-section h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+.testimonial-section h2{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.testimonial-section .container{
+    position: relative;
+}
+
+.testimonial-section img{
+    position: absolute;
+    left: 2%;
+    bottom: 50%;
+    transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+}
+
+/*
+=============================
+Event Section
+=============================
+*/
+
+.event-section{
+    padding: 100px 0 ;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.heading h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.heading span{
+    background: #fb2056;
+    width: 80px;
+    height: 4px;
+    display: block;
+    margin: auto;
+}
+
+.events{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.events img{
+    border-radius: 10px;
+    box-shadow: 13px 13px 0px -3px #EDEDED;
+}
+.events h3{
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+.events p{
+    color: #8C949c;
+    font-size: 20px;
+    padding: 12px 0px;
+}
+.events .learnmore{
+    color: #FB2052;
+    margin-top: 10px;
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+@font-face{
+    font-family: nodu;
+    src:url(../nodu/nodu.eot);
+    src:url(../nodu/nodu.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+
+/*
+=============================
+Global CSS
+=============================
+
+*/
+
+.container{
+    width: 1500px;
+    margin: auto;
+
+}
+
+body{
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+li{
+    list-style: none;
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+=============================
+Header Part
+=============================
+*/
+header{
+    background: #00000075 url(../images/main.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    padding-top: 20px;
+    position: relative;
+}
+
+/* logo part */
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600px;
+}
+.logo h1 span{
+    font-weight: 100;
+    display: block;
+    font-size: 17px;
+}
+
+/* nav part */
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1.5px solid transparent;
+    border-radius: 30px;
+    transition: all 0.1s cubic-bezier(1, 0.05, 0, -0.25);
+}
+
+nav ul li a:hover{
+    border: 1.5px solid;
+}
+
+nav ul li:last-child a{
+    border: 1.5px solid;
+}
+
+/* Banner content part */
+.banner-content{
+    color: #fff;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+}
+.banner-content h6{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-content span{
+    display: block;
+    height: 3px;
+    width: 100px;
+    background: #FB2056;
+    margin: 10px auto 5px;
+}
+.banner-content h1{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.more{
+    background: #FB2056;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 20px 35px;
+    display: inline-block;
+}
+
+/*
+=============================
+Testimonial Part
+=============================
+*/
+
+
+.testimonial-section{
+    background: #FBF6F9;
+    padding: 50px 0;
+    text-align: center;
+    color: #8C949c;
+}
+.testimonial-section h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+.testimonial-section h2{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.testimonial-section .container{
+    position: relative;
+}
+
+.testimonial-section img{
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+    transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+}
+
+/*
+=============================
+Event Section
+=============================
+*/
+
+.event-section{
+    padding: 100px 0 ;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.heading h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.heading span{
+    background: #fb2056;
+    width: 80px;
+    height: 4px;
+    display: block;
+    margin: auto;
+}
+
+.events{
+    max-width: 50%;
+    flex-basis: 50%;
+    padding: 30px;
+    text-align: center;
+}
+.events img{
+    border-radius: 10px;
+    box-shadow: 13px 13px 0px -3px #EDEDED;
+}
+.events h3{
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.events p{}
+.learnmore{
+    color: #FB2052;
+    margin-top: 10px;
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    
+}
+
+.learnmore i{
+    transition: all 0.4s ease;
+}
+.learnmore:hover i{
+    transform: translateX(10px);
+}
+
+/*
+=============================
+Explore section
+=============================
+*/
+
+.explore-section{
+    background: #00000075 url(../images/main2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+.explore-section .flex{
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 600px;
+}
+.explore-content{
+    color: #fff;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.explore-content h1{
+    font-size: 5em;
+    text-transform: uppercase;
+}
+.explore-content span{width: 80px;
+    height: 5px;
+    background: #fb2056;
+    display: inline-block;
+}
+.explore-content p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 21px 0;
+}
+.explore-content a{
+    color: #fff;
+} 
+
+/*
+=============================
+Tours section
+=============================
+*/
+
+.tour-section{
+    padding: 100px 0;
+}
+.tour{
+    max-width: 33.33%;
+    flex-basis: 33.33%;
+    padding: 15px;
+
+}
+.tour h1{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.tour span{
+    width: 80px;
+    height: 5px;
+    background: #fb2056;
+    display: inline-block;
+}
+.tour p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 21px 0;
+}
+.tour img{
+
+}
+
+.mod1-img{
+    width: 100%;
+    padding-top: 30px;
+}
+.mod2-img{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.tour-section .tour:first-child{
+    padding-right: 30px;
+}
+
+.address-section{
+    background: #000000eb;
+}
+
+address{
+    padding: 70px 0;
+    text-align: center;
+}
+
+address p{
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-style: normal;
+}
